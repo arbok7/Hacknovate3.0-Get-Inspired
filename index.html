@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <center><img src="/getinspired.webp" alt="get Inspired image" width="500" height="300"></center>
+        <script type = "text/javascript">
+            function fn1()
+            {
+                var str = document.getElementById("text1").value;
+                alert("Value inside the text box is: " +str);
+            }
+            function fn2()
+            {
+                var str = document.getElementById("text2").value;
+                alert("Value inside the text box is: " +str);
+            }
+            function fn3()
+            {
+                var str = document.getElementById("text3").value;
+                alert("Value inside the text box is: " +str);
+            }
+            function fn4()
+            {
+                var str = document.getElementById("text4").value;
+                alert("Value inside the text box is: " +str);
+            }
+            function fn5()
+            {
+                var str = document.getElementById("text5").value;
+                alert("Value inside the text box is: " +str);
+            }
+            </script>
+        <title>Get Inspired</title>
+  </head>
+  <body>
+  <center>
+        <div>
+            <h1>Submit/Get Idea</h1>
+            <p>Just read or write any Idea/Topic that comes in your mind</p>
+            <p></p>
+        </div>
+     <div>
+         <hr>
+            <a href="index.html"><li>Home</li></a>
+            <a href="Contact.html"><li>Contact</li></a>
+            <a href="about.html"><li>About</li> </a>
+          <hr>  
+      </div>
+        <p>This portal is created for the people who need inspiration or any idea.</p>
+        <p>Feel free to share your thoughts and ideas on your interested subject.</p>
+        <p></p>
+   
+        <div>
+            <hr>
+            <label>Username</label> <br> 
+            <input type="username" /> <br>
+            <label>Password</label> <br>
+            <input type="password" /> <br>
+            <input type="submit" /> <br>
+            <hr>
+        </div>
+    
+   
+       <div>
+        <table>
+        <tr>
+            <th>Topic</th>
+            <th><label for="Topic"></label>
+                <input type="text"/>
+             <input type="submit"></th>
+              <br>
+            
+        </tr> <br>
+        <th>Topic</th>
+        <th>contribute</th>
+        <th>link</th>
+        <tr>
+             <td>Climate change</td>
+             <td><input id="text1" placeholder="Enter your idea/thought">
+                <button onclick="fn1()" id = "btn1">Submit</button></td>
+             <td><a href="https://en.wikipedia.org/wiki/Climate_change">wikipedia</a></td>
+        </tr>
+         <tr>
+             <td>Air Pollution</td>
+             <td><input id="text2" placeholder="Enter your idea/thought">
+                <button onclick="fn2()" id = "btn2">Submit</button></td>
+             <td><a href="https://en.wikipedia.org/wiki/Air_pollution">wikipedia</a></td>
+            </tr>
+        <tr>
+             <td>Energy crisis</td>
+             <td><input id="text3" placeholder="Enter your idea/thought">
+                <button onclick="fn3()" id = "btn3">Submit</button></td>
+             <td><a href="https://en.wikipedia.org/wiki/Energy_crisis">wikipedia</a></td>
+        </tr>
+        <tr>
+             <td>Ideology</td>
+             <td><input id="text4" placeholder="Enter your idea/thought">
+                <button onclick="fn4()" id = "btn4">Submit</button></td>
+             <td><a href="https://en.wikipedia.org/wiki/Ideology">wikipedia</a></td>
+        </tr>
+        <tr>
+             <td>Human Rights</td>
+             <td><input id="text5" placeholder="Enter your idea/thought">
+                <button onclick="fn5()" id = "btn5">Submit</button></td>
+             <td><a href="https://en.wikipedia.org/wiki/Human_rights">wikipedia</a></td>
+        </tr>
+      </table>
+   </div>
+</center>
+   
+  </body>
